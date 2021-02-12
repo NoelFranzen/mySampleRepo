@@ -1,0 +1,106 @@
+//HERO-SECTION Hero-base-styling
+
+.Bg-Hero {
+    background-color: #f9007a;
+    background-image: url("http://www.noelimits.co.za/staging/IX/images/silde3.jpg");
+    background-attachment: fixed;
+    background-position: 50% 0px;
+    background-size: cover;
+}
+
+
+//HERO-SECTION END
+
+//BACKGROUND-SECTIONS Bg-base-styling
+.Bg-svg-grey {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1128%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(231%2c 231%2c 231%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c558.976C103.225%2c555.535%2c159.989%2c438.289%2c238.68%2c371.394C305.647%2c314.466%2c384.933%2c272.107%2c427.749%2c195.347C472.678%2c114.799%2c484.297%2c22.539%2c484.712%2c-69.691C485.183%2c-174.484%2c495.264%2c-290.63%2c430.304%2c-372.861C364.833%2c-455.739%2c247.939%2c-469.54%2c146.263%2c-498.125C45.728%2c-526.389%2c-54.427%2c-551.244%2c-158.05%2c-538.269C-275.138%2c-523.608%2c-414.453%2c-514.693%2c-483.818%2c-419.231C-553.416%2c-323.449%2c-485.513%2c-189.307%2c-497.224%2c-71.49C-508.237%2c39.301%2c-603.405%2c153.443%2c-550.478%2c251.395C-496.989%2c350.388%2c-347.359%2c332.773%2c-249.132%2c387.657C-159.331%2c437.833%2c-102.811%2c562.404%2c0%2c558.976' fill='%23c7c7c7'%3e%3c/path%3e%3cpath d='M1440 1096.0149999999999C1552.217 1115.812 1675.121 1136.23 1774.57 1080.6019999999999 1875.466 1024.166 1927.344 909.3140000000001 1967.5529999999999 800.925 2005.71 698.066 2005.318 589.278 1997.4279999999999 479.854 1988.9940000000001 362.88300000000004 1989.786 238.30599999999998 1920.182 143.92000000000002 1848.5439999999999 46.775999999999954 1734.5059999999999-17.349000000000046 1615.576-37.95600000000002 1502.342-57.57600000000002 1386.056-21.75 1285.54 33.956999999999994 1197.323 82.84800000000001 1145.098 171.77999999999997 1087.607 254.64999999999998 1036.022 329.007 986.054 403.475 967.7080000000001 492.095 948.5450000000001 584.6610000000001 943.8969999999999 682.675 980.995 769.62 1018.5450000000001 857.625 1095.594 919.125 1173.57 974.573 1254.755 1032.3029999999999 1341.897 1078.708 1440 1096.0149999999999' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1128'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-attachment: fixed;
+    background-size: cover;
+} 
+
+.Bg-svg-dark-grey{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1015%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(18%2c 18%2c 18%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c558.976C103.225%2c555.535%2c159.989%2c438.289%2c238.68%2c371.394C305.647%2c314.466%2c384.933%2c272.107%2c427.749%2c195.347C472.678%2c114.799%2c484.297%2c22.539%2c484.712%2c-69.691C485.183%2c-174.484%2c495.264%2c-290.63%2c430.304%2c-372.861C364.833%2c-455.739%2c247.939%2c-469.54%2c146.263%2c-498.125C45.728%2c-526.389%2c-54.427%2c-551.244%2c-158.05%2c-538.269C-275.138%2c-523.608%2c-414.453%2c-514.693%2c-483.818%2c-419.231C-553.416%2c-323.449%2c-485.513%2c-189.307%2c-497.224%2c-71.49C-508.237%2c39.301%2c-603.405%2c153.443%2c-550.478%2c251.395C-496.989%2c350.388%2c-347.359%2c332.773%2c-249.132%2c387.657C-159.331%2c437.833%2c-102.811%2c562.404%2c0%2c558.976' fill='%230c0c0c'%3e%3c/path%3e%3cpath d='M1440 1096.0149999999999C1552.217 1115.812 1675.121 1136.23 1774.57 1080.6019999999999 1875.466 1024.166 1927.344 909.3140000000001 1967.5529999999999 800.925 2005.71 698.066 2005.318 589.278 1997.4279999999999 479.854 1988.9940000000001 362.88300000000004 1989.786 238.30599999999998 1920.182 143.92000000000002 1848.5439999999999 46.775999999999954 1734.5059999999999-17.349000000000046 1615.576-37.95600000000002 1502.342-57.57600000000002 1386.056-21.75 1285.54 33.956999999999994 1197.323 82.84800000000001 1145.098 171.77999999999997 1087.607 254.64999999999998 1036.022 329.007 986.054 403.475 967.7080000000001 492.095 948.5450000000001 584.6610000000001 943.8969999999999 682.675 980.995 769.62 1018.5450000000001 857.625 1095.594 919.125 1173.57 974.573 1254.755 1032.3029999999999 1341.897 1078.708 1440 1096.0149999999999' fill='%23181818'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1015'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Bg-svg-dark-grey-img {
+    background-image: url("http://www.noelimits.co.za/staging/IX/images/bg.jpg");
+    padding: 0px 0px;
+    background-size: cover;
+    color: #fff;
+}
+
+//BACKGROUND-SECTIONS Bg-base-styling
+
+
+
+
+//General-card-Box-radius style
+
+.box-radius-style {
+    border-bottom: #f9007a solid 4px;
+    overflow: hidden;
+    border-radius: 10px !important;
+    // border-radius: 20px 20px 20px 20px;
+    // -webkit-box-shadow: 0px 0px 28px 10px rgba(0,0,0,0.28); 
+    // box-shadow: 0px 0px 50px 20px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 17px 17px 15px -6px rgba(0,0,0,0.3); 
+    box-shadow: 25px 30px 15px -6px rgba(0,0,0,0.2);
+}
+
+//Course & Resourses Section
+
+.card-box-style {
+    border: 14px solid #1C6EA4;
+    overflow: hidden;
+    border-radius: 10px !important;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-box-shadow: 0px 0px 28px 10px rgba(0,0,0,0.28); 
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+// STUDENT-SECTION -- Connect & Students Section
+
+.radiusStyle2 {
+    border-radius: 10px !important;
+}
+
+// Bg-gradient-styling
+
+.gradient-1 {
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.gradient-2{
+    background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.gradient-3 {
+    background: #DCE35B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.gradient-4{
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.gradient-5 {
+background: #bc4e9c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.whiteGradient {
+    background: rgb(237,237,237);
+    background: linear-gradient(230deg, rgba(237,237,237,0) 0%, rgba(255,255,255,1) 69%);
+}
